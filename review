@@ -1,0 +1,15 @@
+PROS
+- easy to start with Vue CLI `$ vue create example-app`
+- Awesome CLI UI `$ vue ui`
+- nice devtools (https://github.com/vuejs/vue-devtools)
+- embraces classic web technologies (for some developers templates fell more natural to read and write)
+- can use pre-processors such as Pug for templates
+- css scoped property out of the box
+- data is observable!
+
+CONS
+- need to include components that you want to use in a component
+- rebinding of this
+- template interpolation?!! for example: img src, div inline style
+- mixin conflicting keys - can't use namespace :(
+- Need to create a bridge between logic and template
